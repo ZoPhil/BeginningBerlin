@@ -1,9 +1,23 @@
-.test{
-color:red;
+.colorfulnav{
+	background-color: #e7c40a;
+	justify-content: center;
+	color: #111111;
 }
+.colorfulnav a:hover{
+	background-color: #d80c0f !important;
+}
+.mainheader{
+	background-color: #009bd7;
+	color: #ffffff;
+	font-family:'Josefin Sans', sans-serif; 
+}
+
 /* blue: #009bd7
 white: #ffffff
 red: #d80c0f
 yellow: #e7c40a
 black: #111111
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Muli', sans-serif;
 ;
