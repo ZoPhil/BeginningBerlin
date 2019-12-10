@@ -3,13 +3,19 @@
 	justify-content: center;
 	color: #111111;
 }
-.colorfulnav a:hover{
-	background-color: #d80c0f !important;
+
+
+.navbar-light .navbar .nav-link:hover{
+	color: red;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
 }
 .mainheader{
 	background-color: #009bd7;
 	color: #ffffff;
-	font-family:'Josefin Sans', sans-serif; 
+	font-family:'Josefin Sans', sans-serif;
 }
 .flag1 {
   border: 20px #d80c0f;
