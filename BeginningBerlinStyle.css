@@ -29,6 +29,9 @@
   border: 20px #111111;
   border-radius: 2px;
 }
+.maintext{
+	font-family: 'Muli', sans-serif;
+}
 
 /* blue: #009bd7
 white: #ffffff
