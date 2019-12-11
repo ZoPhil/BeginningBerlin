@@ -86,7 +86,7 @@
             var blocks = content[pagefile].blocks;
             console.log(blocks);
             for(var i=0; i<blocks.length; i++){
-            $('#jumbo').append(' <h1> Beginning in Berlin </h1> <h3>' + content.blocks[i].title + '</h3>');
+            $('#jumbo').append(' <h1> Beginning in Berlin </h1> <h3>' + blocks[i].title + '</h3>');
             }
 
 
