@@ -52,7 +52,8 @@
 }
 
 .eventssocial ul li a{
-	color: #111111;
+	color: #ffffff;
+
 }
 
 .eventssocial ul li a:hover{
@@ -63,6 +64,15 @@
 .eventssocial ul{
 	list-style-type:none;
 }
+
+.jumbotron-events{
+	background-color: #009bd7;
+}
+
+.eventssocial{
+	color: #ffffff;
+}
+
 
 /* blue: #009bd7
 white: #ffffff
