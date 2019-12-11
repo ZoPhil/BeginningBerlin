@@ -45,6 +45,11 @@
 	height: 500px;
 	margin-left: 1rem;
 }
+.buttontext{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	text-decoration: underline;
+}
 
 .eventssocial ul li a{
 	color: #111111;

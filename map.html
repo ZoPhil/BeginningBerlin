@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
 	<link rel="stylesheet" type="text/css" href="BeginningBerlinStyle.css">
 
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet'/>
@@ -13,11 +12,13 @@
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
 	<title>Map</title>
 
 </head>
 
-  <div class="jumbotron mainheader my-0" id="jumbo">
+<body>
+	<div class="jumbotron mainheader my-0" id="jumbo">
   </div>
 
 
@@ -30,13 +31,10 @@
         </ul>
     </nav>
 
-
-<body>
-
 	<div class="row">
 		<div class = "col-md">
 			<div id='map'></div>
-			<script type="text/javascript" src="mapBoxJS.js"></script>
+			
 		</div>
 	</div>
 
@@ -68,6 +66,14 @@
 				</div>
 			</div>
 		</div>
+		<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+		<script type="text/javascript" src="BeginBerlinJava.js"></script>
+		<script type="text/javascript" src="mapBoxJS.js"></script>
 
 
 </body>
