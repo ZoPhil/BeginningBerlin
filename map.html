@@ -35,27 +35,28 @@
 		</div>
 	</div>
 
-	<div class="row">
+	<div id="recTable" class="row">
 		<div class="col-md">
-			<p> Above we have a few of our favorite places in Berlin!</p>
-				<table class="table table-light table-striped">
-				<thead>
+			<p> Here are some of our favorite spots in Berlin!</p>
+
+				<table class="table table-light table-hover table-bordered">
+				<thead style="background-color: #009bd7;">
 				    <tr>
 				    <th>Restaurants</th>
-				    <th>Clubs</th>
-				    <th>Bars</th>
+				    <th>Clubs/Bars</th>
+				    <th>Attractions</th>
 				    </tr>
 				</thead>
-				<tbody>
+				<tbody style="background-color: #e7c40a;">
 				    <tr>
-				    <td>this</td>
-				    <td>page</td>
-				    <td>more info</td>
+				    <td><a href="http://www.louis-burgers.de/">Loui's Burgers</a></td>
+				    <td><a href="https://clash-berlin.de/">Clash</a></td>
+				    <td><a href="https://www.visitberlin.de/en/brandenburg-gate">Brandenburger Tor</a></td>
 				    </tr>
 				    <tr>
-				    <td>is still</td>
-				    <td>a work in </td>
-				    <td>progress</td>
+				    <td><a href="https://burger-meister.de/?lang=en">Burgermeister</a></td>
+				    <td><a href="http://www.junction-bar.de/">Junction Bar</a></td>
+				    <td><a href="https://www.visitberlin.de/en/reichstag-in-berlin">Reichstag</a></td>
 				    </tr>
 				</tbody>
 				</table>
@@ -70,6 +71,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
 	<script type="text/javascript" src="BeginBerlinJava.js"></script>
+
+   <div class="containter-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 flag1"></div>
+             <div class="col-lg-12 col-md-12 col-sm-12 flag2"></div>
+             <div class="col-lg-12 col-md-12 col-sm-12 flag3"></div>
+        </div>
+    </div>
 
 </body>
 </html>

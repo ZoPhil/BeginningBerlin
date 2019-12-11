@@ -94,14 +94,34 @@
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam1lemF2aW4iLCJhIjoiY2s0MDFlcnBzMGExMDNvcXVkOXFrbjMxeCJ9.KX-GKsIddBcB_2Kf4KxeiA';
 var map = new mapboxgl.Map({
     container: 'map',
-    center: [12.07, 52.72],
-    zoom: 4,
+    center: [13.377, 52.516],
+    zoom: 10,
     style: 'mapbox://styles/jmezavin/ck4063g7e121s1cprqardiu2j'
     });
 
-var marker = new mapboxgl.Marker();
-marker.setLngLat([12.07, 52.72]);
-marker.addTo(map);
+var markerLoui = new mapboxgl.Marker();
+markerLoui.setLngLat([13.393579, 52.489575]);
+markerLoui.addTo(map);
+
+var markerBurger = new mapboxgl.Marker();
+markerBurger.setLngLat([13.418629, 52.499680]); 
+markerBurger.addTo(map);
+
+var markerClash = new mapboxgl.Marker();
+markerClash.setLngLat([13.388563 , 52.492106]);
+markerClash.addTo(map);
+
+var markerJunction = new mapboxgl.Marker();
+markerJunction.setLngLat([13.393633, 52.491696]); 
+markerJunction.addTo(map);
+
+var markerTor = new mapboxgl.Marker();
+markerTor.setLngLat([13.377535, 52.516291]);
+markerTor.addTo(map);
+
+var markerReich = new mapboxgl.Marker();
+markerReich.setLngLat([13.376479, 52.518560]); 
+markerReich.addTo(map);
 
 map.on('click',function(e){
     console.log("the longitude of where the user's clicking is at " + e.lngLat.lng);

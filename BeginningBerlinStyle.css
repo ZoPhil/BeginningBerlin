@@ -1,12 +1,9 @@
 
-
-
 .colorfulnav{
 	background-color: #e7c40a;
 	justify-content: center;
 	color: #111111;
 }
-
 
 .navbar-light .navbar .nav-link:hover{
 	color: red;
@@ -43,7 +40,7 @@
 #map{
 	width: auto;
 	height: 500px;
-	margin-left: 1rem;
+	margin: 1rem;
 }
 .buttontext{
 	font-family: 'Josefin Sans', sans-serif;
@@ -71,6 +68,10 @@
 
 .eventssocial{
 	color: #ffffff;
+}
+
+#recTable{
+	margin:1rem;
 }
 
 
