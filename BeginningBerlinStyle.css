@@ -21,16 +21,16 @@
 	font-family:'Josefin Sans', sans-serif;
 }
 .flag1 {
-  border: 20px #d80c0f;
-  border-radius: 2px;
+  background-color:  #d80c0f;
+  height: 10px;
 }
 .flag2 {
-  border: 20px #e7c40a;
-  border-radius: 2px;
+  background-color: #e7c40a;
+  height: 10px;
 }
 .flag3 {
-  border: 20px #111111;
-  border-radius: 2px;
+  background-color: #111111;
+  height: 10px;
 }
 .maintext{
 	font-family: 'Muli', sans-serif;
@@ -40,6 +40,11 @@
 	font-size: 24px;
 }
 
+#map{
+	width: auto; 
+	height: 500px;
+	margin-left: 1rem;
+}
 
 
 /* blue: #009bd7
