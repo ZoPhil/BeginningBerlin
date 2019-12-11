@@ -41,11 +41,23 @@
 }
 
 #map{
-	width: auto; 
+	width: auto;
 	height: 500px;
 	margin-left: 1rem;
 }
 
+.eventssocial ul li a{
+	color: #111111;
+}
+
+.eventssocial ul li a:hover{
+	color: #d80c0f;
+	text-decoration: none;
+}
+
+.eventssocial ul{
+	list-style-type:none;
+}
 
 /* blue: #009bd7
 white: #ffffff
